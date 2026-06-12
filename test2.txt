@@ -1,0 +1,68 @@
+# Git Commands Reference
+# Each command below is followed by a comment explaining what it does.
+
+# Create a new Git repository in the current folder
+# git init
+
+# Check the current status of files in the repository
+# git status
+
+# Add one or more files to the staging area
+# git add <file-name>
+
+# Add all modified files to the staging area
+# git add .
+
+# Save staged changes with a message
+# git commit -m "Your message"
+
+# View the commit history
+# git log
+
+# Create a new branch
+# git branch <branch-name>
+
+# Switch to another branch
+# git checkout <branch-name>
+
+# Create and switch to a new branch in one step
+# git checkout -b <branch-name>
+
+# Merge another branch into the current branch
+# git merge <branch-name>
+
+# Download changes from a remote repository
+# git pull
+
+# Upload local commits to a remote repository
+# git push
+
+# Clone an existing repository to your local machine
+# git clone <repository-url>
+
+# View or add remote repositories
+# git remote -v
+
+# Show differences between files before committing
+# git diff
+
+# Unstage a file while keeping its changes
+# git reset <file-name>
+
+# Undo the last commit but keep the changes
+# git reset --soft HEAD~1
+
+# Undo the last commit and discard changes
+# git reset --hard HEAD~1
+
+# Create a new commit that reverses an earlier commit
+# git revert <commit-id>
+
+# Temporarily save changes without committing them
+# git stash
+
+# Restore the last stashed changes
+# git stash pop
+
+# Show the current branch and its tracking status
+# git branch -vv
